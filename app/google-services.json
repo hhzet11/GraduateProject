@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "269626394741",
+    "firebase_url": "https://graduationproject-ac80c.firebaseio.com",
+    "project_id": "graduationproject-ac80c",
+    "storage_bucket": "graduationproject-ac80c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269626394741:android:c30d1a3b4af176c50f503c",
+        "android_client_info": {
+          "package_name": "adroidtown.org.graduateproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269626394741-jt0i4cbk85ooui9gju36f0jghj4t36ed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "adroidtown.org.graduateproject",
+            "certificate_hash": "b2af233c714db587f04f141012befda368182801"
+          }
+        },
+        {
+          "client_id": "269626394741-2646ira3v93lqgofrrt1el6fuj696t2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE4fJmulXx64o381ulcClUwAk253SRVtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269626394741-2646ira3v93lqgofrrt1el6fuj696t2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

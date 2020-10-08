@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:textSize="20dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/homeTraining"
+                android:src="@drawable/barbell"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/music"
+                android:layout_weight="1"
+                android:src="@drawable/music" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home-Training"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Music"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/chatbot"
+                android:src="@drawable/chatbot"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/mic"
+                android:src="@drawable/microphone"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat-bot"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Microphone"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/foodRecipe"
+                android:src="@drawable/recipebook"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/settings"
+                android:src="@drawable/settings"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Recipe"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Settings"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
